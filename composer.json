@@ -1,0 +1,25 @@
+{
+    "name": "saopanda/log",
+    "description": "learn composer package",
+    "type": "library",
+    "autoload": {
+        "files": [
+            "src/helper.php"
+        ],
+        "classmap": [
+            "src/log.php",
+            "src/Drivers/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Shiliang0352",
+            "email": "1161943164@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-mbstring": "*",
+        "psr/log": "1.*"
+    }
+}
